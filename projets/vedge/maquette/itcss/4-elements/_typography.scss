@@ -1,0 +1,38 @@
+/*------------------------------------*\
+  typography / elements
+\*------------------------------------*/
+
+/* Règles génériques ----------------------- */
+h1,
+h2,
+h3 {
+  line-height: calc(var(--marg-resp-s) / 2);
+}
+/* taille polices augmentée dans une péspective d'améliorer l'accessibilité */
+
+h1 {
+  font-size: calc(20px + 0.8vw);
+}
+
+h2 {
+  font-size: calc(18px + 0.6vw);
+}
+
+h3 {
+  font-size: calc(16px + 0.5vw);
+}
+
+p,
+a,
+form * {
+  line-height: var(--rythm-s);
+  font-size: calc(14px + 0.2vw);
+}
+
+
+
+
+
+
+
+

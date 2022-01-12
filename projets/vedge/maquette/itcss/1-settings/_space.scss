@@ -1,0 +1,34 @@
+/*------------------------------------*\
+  space / settings
+\*------------------------------------*/
+
+:root {
+  /* Rythme de base (gouttière normale) */
+  --rythm-s: 1.65rem;
+  --rythm-s-neg: -1.65rem;
+  /* Rythme élargi (gouttière large) */
+  --rythm-m: 2.5rem;
+  --rythm-m-neg: -2.5rem;
+  /* Rythme espacé */
+  --rythm-l: 5rem;
+  --rythm-l-neg: -5rem;
+  /* Rythme trés espacé */
+  --rythm-xl: 10rem;
+  /* Rythme marges adaptives */
+  --marg-resp-s: calc(var(--rythm-m) + 2.2vw);
+  --marg-resp-m: calc(var(--rythm-l) + 2.5vw);
+  --marg-resp-s-neg: calc(var(--rythm-m-neg) - 2.2vw);
+  --marg-resp-m-neg: calc(var(--rythm-l-neg) - 2.5vw);
+}
+
+
+
+
+
+
+
+
+
+
+
+

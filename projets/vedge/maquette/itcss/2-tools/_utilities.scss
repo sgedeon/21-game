@@ -1,0 +1,45 @@
+.center-txt {
+	text-align: center;
+}
+
+.img-box {
+	position: relative;
+}
+
+.dropdown {
+	display: inline-block;
+	position: relative;
+	&:hover {
+		.dropdown-content {
+			display: block;
+		}
+	}
+}
+
+.dropdown-content {
+	background-color: $clr-bg;
+	display: none;
+	margin-left: -1rem;
+	position: absolute;
+	z-index: 2;
+	a {
+		padding: 0.5rem;
+		margin: 0.5rem;
+		display: block;
+		text-align: center;
+	}
+}
+
+.logo {
+	img {
+		width: var(--marg-resp-m);
+	}
+	align-items: center;
+	padding: 1rem;
+	padding-left: calc(2rem + 0.5vw);
+}
+
+
+
+
+

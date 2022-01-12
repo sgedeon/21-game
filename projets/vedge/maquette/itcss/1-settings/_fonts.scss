@@ -1,0 +1,17 @@
+/*------------------------------------*\
+  fonts / settings
+\*------------------------------------*/
+
+$ff-title: 'Rubik', sans-serif;
+$ff-txt: 'Nunito Sans', sans-serif;
+
+h1,
+h2,
+h3 {
+	font-family: $ff-title;
+}
+p,
+a,
+form {
+	font-family: $ff-txt;
+}
