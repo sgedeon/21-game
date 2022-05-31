@@ -1,0 +1,78 @@
+/*------------------------------------*\
+  button / components
+\*------------------------------------*/
+
+button {
+  margin-top: 10px;
+}
+
+.start {
+  border-color: green;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: -webkit-linear-gradient(45deg, green 50%, transparent 50%);
+  background-image: linear-gradient(45deg, green 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  color: white;;
+  font-family: arial black, sans-serif;
+  font-size: 6px;
+  font-weight: bold;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  padding: 1.5vw;
+}
+
+.stop {
+  border-color: red;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: -webkit-linear-gradient(45deg, red 50%, transparent 50%);
+  background-image: linear-gradient(45deg, red 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  color:white;
+  font-family: arial black, sans-serif;
+  font-size: 6px;
+  font-weight: bold;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  padding: 1.5vw;
+}
+
+.restart {
+  border-color: black;
+  background-color:  rgba(0, 0, 0, 0.5);
+  background-image: -webkit-linear-gradient(45deg, black 50%, transparent 50%);
+  background-image: linear-gradient(45deg, black 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  color: white;
+  font-family: arial black, sans-serif;
+  font-size: 6px;
+  font-weight: bold;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  padding: 1.5vw;
+}
+
+button:hover {
+  background-position: 0;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+

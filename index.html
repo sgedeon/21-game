@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr_CA">
+<head>
+<!-- meta -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>TP1 | Sébastien Gedeon</title>
+<meta name="description" content="TP1 | Sébastien Gedeon">
+
+<link rel="stylesheet" href="./css/main.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- scripts -->
+<script type="module" src="./scripts/main.js" defer></script>
+    
+</head>
+
+<body class="wrapper">
+	<header>
+		<h1>21<small> faites vos jeux !</small></h1>
+	</header>
+	<main>
+        <div data-js-form>
+			<form>
+				<h2 data-js-nbparties></h2>
+				<h2>Sélectionnez le nombre de joueurs</h2>
+				<div class="input-wrapper">
+					<input type="number" min="1" max="8" value="1" data-js-joueurs="joueurs">
+				</div>
+			</form>
+			<button class="start" data-js-submit>C'est partie !</button>
+		</div>
+        <div data-js-game class="hidden flex">
+			<div data-js-board class="board">
+			</div>
+			<button class="restart" data-js-restart>Recommencer</button>
+        </div>
+	</main>
+</body>
+</html>
