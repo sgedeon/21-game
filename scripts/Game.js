@@ -2,12 +2,7 @@ export class Game {
     constructor () {
     }
 
-    /* Permet de trouver le prochain élément qui inclus un certain selecteur.
-    La fonction n'est pas de moi, elle a par contre littéralement été un life saver 
-    dans le cadre de ce TP. Elle parait simple mais il fallait y penser :)
-    Je suis pas mal certain de réutiliser le "matches", que je ne 
-    connaissais pas, à l'avenir.
-    https://gomakethings.com/finding-the-next-and-previous-sibling-elements-that-match-a-selector-with-vanilla-js/*/
+    /* Permet de trouver le prochain élément qui inclus un certain selecteur.*/
 
     getNextSibling(elem, selector) {
         var sibling = elem.nextElementSibling;
